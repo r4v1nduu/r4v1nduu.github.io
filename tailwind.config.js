@@ -41,6 +41,7 @@ module.exports = {
         '100': '100',
       }
     },
+    
   },
   plugins: [],
 }

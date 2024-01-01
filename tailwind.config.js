@@ -3,12 +3,9 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     screens: {
-      //'mobile': {'min':'0px','max':'720px'},
-      'tablet': {'min':'0px','max':'820px'},
-      'laptopm': {'min':'821px','max':'1000px'},
-      'laptop': {'min':'1001px','max':'1100px'},
-      'desktop': {'min':'1101px','max':'1280px'},
-      'screen': {'min':'1281px','max':'1400px'},
+      'sm': {'min': '640px', 'max': '767px'},
+      'md': {'min': '768px', 'max': '1023px'},
+      'lg': {'min': '1024px', 'max': '1279px'},
     },
     extend: {
       colors: {
@@ -41,6 +38,7 @@ module.exports = {
         '100': '100',
       }
     },
+    
   },
   plugins: [],
 }

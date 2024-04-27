@@ -23,19 +23,13 @@ module.exports = {
         neutro: ["Neutro", 'sans-serif'],
       },
       width: {
-        'hero': '28rem'
+        'hero': '24rem'
       },
       height: {
-        'hero': '28rem'
-      },
-      spacing: {
-        'arrowx': '90px',
-      },
-      rotate: {
-        'arrow': '20deg'
+        'hero': '24rem'
       },
       zIndex: {
-        '100': '100',
+        '100': '100'
       }
     },
     
